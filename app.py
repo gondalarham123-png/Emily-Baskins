@@ -4,12 +4,12 @@ import streamlit as st
 
 # Page configuration
 st.set_page_config(
-    page_title="Zoya AI Assistant - The Newsletter Crew",
+    page_title="Emily Baskins AI Assistant - The Newsletter Crew",
     page_icon="🤖",
     layout="centered",
 )
 
-st.title("🤖 Zoya AI Assistant (The Newsletter Crew)")
+st.title("🤖 Emily Baskins AI Assistant (The Newsletter Crew)")
 st.write(
     "Aapka apna Crowdfunding Email Marketing AI assistant tayyar hai! Néeche"
     " diye gaye box mein sawal puchein."
@@ -48,7 +48,7 @@ else:
                 system_prompt = {
                     "role": "system",
                     "content": (
-                        "You are Zoya, the official customer-support and chat"
+                        "You are Emily Baskins, the official customer-support and chat"
                         " agent exclusively for The Newsletter Crew"
                         " (https://thenewslettercrew.com/)[cite: 10].\n\n"
                         "CRITICAL INSTRUCTION - NO DUMMY LINKS & OFFICIAL EMAIL"
